@@ -1,0 +1,293 @@
+global:
+  name: Yuntu Landscape
+  short_name: Yuntu
+  repo: yuntu/landscape
+  website: https://www.cuiniuhui.com/
+  short_domain: l.cd.foundation
+  company_url: https://www.cuiniuhui.com/
+  email: info@cd.foundation
+  self: https://www.crunchbase.com/organization/cuiniuhui
+  slack_channel: T08PSQ7BQ/BNL6EUY3X/Y1e4mHQl77qnLRi8eQCwtKT0
+  meta:
+    title: Yuntu Landscape
+    fb_admin: alex.contini.94
+    description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
+    twitter: "@CDeliveryFdn"
+    google_site_verification: apI3BLUsW1CCRZpZ6XDsuvJyJSRVc4UZ-yRwbzP3ytk
+    ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
+  membership: "协同办公"
+  flags:
+    companies: "协同办公"
+twitter:
+  search: cuiniuhui
+  url: https://www.cuiniuhui.com/
+  text: cuiniuhui
+relation:
+  label: CDF Relation
+  url: cd.foundation
+  values:
+    - id: hosted
+      label: CDF Projects
+      children:
+        - id: graduated
+          label: Graduated CDF Projects
+          prefix: CDF
+          tag: Graduated
+          color: "#3570af"
+          big_picture_order: 1
+          big_picture_label: CDF Graduated
+          big_picture_color: rgb(24,54,114)
+        - id: incubating
+          label: Incubating CDF Projects
+          prefix: CDF
+          tag: Incubating
+          color: "#00cbff"
+          big_picture_order: 2
+          big_picture_label: CDF Incubating
+          big_picture_color: rgb(83, 113, 189)
+    - id: company
+      label: "协同办公"
+      tag: Company
+      big_picture_order: 3
+    - id: member
+      label: CDF Member Products/Projects
+      tag: CDF Member
+    - id: false
+      label: Non-CDF Member Products/Projects
+      url: "no"
+membership:
+  Premier:
+    name: CDF
+    label: Premier Member
+    end_user_label: Premier End User Member
+    funding: Premier
+    is_large: true
+  General:
+    name: CDF
+    label: General Member
+    end_user_label: General End User Member
+    funding: General
+  End User:
+    name: CDF
+    label: End User
+    funding: End User
+    enduser: true
+  Associate:
+    name: CDF
+    label: Associate
+    funding: Associate
+    enduser: true
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
+  cdf:
+    name: CDF
+    label: Project
+    funding: CDF
+  "false":
+    funding: "No"
+home:
+  header: >
+    <h1>崔牛会云图</h1> The Yuntu landscape (<a target="_blank" href="images/landscape.png">png</a>, <a
+    target="_blank" href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF
+    landscape</a> and based on the same open source code.
+  footer: |
+    Crunchbase data is used under license from Crunchbase to CNCF.
+ads:
+  - url: https://www.cuiniuhui.com/
+    image: /images/神州数码logo.svg
+    title: 崔牛会
+presets:
+  - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
+    label: Open source cards by age
+  - url: /license=apache-license-2-0
+    label: Apache-2.0 landscape
+  - url: /format=card-mode&grouping=category
+    label: Cards in categories
+  - url: /format=card-mode&grouping=no&sort=stars
+    label: Cards by stars
+  - url: /format=card-mode&grouping=headquarters
+    label: Group by location
+  - url: /format=card-mode&grouping=no&sort=amount
+    label: Cards by MCap/Funding
+big_picture:
+  main:
+    tab_index: 9999
+    url: landscape
+    name: Landscape
+    title: Yuntu Landscape
+    fullscreen_header: 崔牛会云图
+    elements:
+      - type: HorizontalCategory
+        category: "协同办公"
+        rows: 3
+        width: 1540
+        height: 160
+        top: 0
+        left: 0
+        color: rgb(29,119,164)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "人力资源"
+        rows: 3
+        width: 1540
+        height: 480
+        top: 220 
+        left: 0
+        color: rgb(79,121,13)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "外部服务"
+        rows: 3
+        width: 1240
+        height: 480
+        top: 730 
+        left: 3050 
+        color: rgb(87,43,10)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "销售/客服"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 0 # 480 + 10
+        left: 1550 # 1540+10
+        color: rgb(179,60,133)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "生产供应"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 740
+        left: 0
+        color: rgb(87,43,10)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "财税费控"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 930
+        left: 0
+        color: rgb(126,115,14)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "云ERP"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 1140
+        left: 0
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "资本"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 1340
+        left: 0
+        color: rgb(185,33,66)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "营销/获客"
+        rows: 3
+        width: 1340
+        height: 480
+        top: 1250 
+        left: 2950
+        color: rgb(64,117,191)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "数据资产"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 1220
+        left: 1550
+        color: rgb(0,181,226)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "IaaS平台"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 1570
+        left: 1550
+        color: rgb(215,100,38)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "电商平台"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 1400
+        left: 1550
+        color: rgb(0,134,191)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "技术支撑"
+        rows: 3
+        width: 1340
+        height: 480
+        top: 720
+        left: 1560
+        color: rgb(67,176,42)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "企业安全"
+        rows: 3
+        width: 1340
+        height: 320
+        top: 180
+        left: 1550
+        color: rgb(109,61,143)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "智慧园区"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 1560 
+        left: 0
+        color: rgb(46,107,46)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "工业互联网"
+        rows: 3
+        width: 1340
+        height: 160
+        top: 520
+        left: 1550
+        color: rgb(143,88,61)
+        fit_width: true
+      - type: HorizontalCategory
+        category: "垂直行业"
+        rows: 3
+        width: 1340
+        height: 720
+        top: 0
+        left: 2950
+        color: rgb(46,97,107)
+        fit_width: true
+
+      # - type: HorizontalCategory
+      #   category: "销售/客服"
+      #   rows: 3
+      #   width: 1340
+      #   height: 160
+      #   top: 510 # （160 + 10） * 3
+      #   left: 0
+      #   color: rgb(19,105,73)
+      #   fit_width: true
+test:
+  header: Yuntu Landscape
+  section: "协同办公"
+  logo: tekton-pipelines.svg
+update_server:
+  ip: 147.75.106.211
+  update_hour: 0
+  update_minute: 0

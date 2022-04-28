@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="58" viewBox="0 0 72 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #fd5436;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.412" y1="-0.026" x2="0.514" y2="0.558" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8e70"/>
+      <stop offset="0.717" stop-color="#fd5436"/>
+      <stop offset="1" stop-color="#fd5436"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.894" y1="0.984" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd583b"/>
+      <stop offset="0.394" stop-color="#fd5436"/>
+      <stop offset="0.851" stop-color="#fe9476"/>
+      <stop offset="1" stop-color="#ff9779"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-22.396" y1="0.75" x2="-23.329" y2="-0.152" gradientUnits="objectBoundingBox">
+      <stop offset="0.105" stop-color="#fff"/>
+      <stop offset="0.847" stop-color="#fe9f9c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.106" y1="0.984" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd583b"/>
+      <stop offset="0.362" stop-color="#fc5335"/>
+      <stop offset="0.851" stop-color="#fe9476"/>
+      <stop offset="1" stop-color="#ff9779"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.121" y1="0.857" x2="0.665" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd7d6"/>
+      <stop offset="0.023" stop-color="#fd7659"/>
+      <stop offset="0.423" stop-color="#fd6c4f"/>
+      <stop offset="1" stop-color="#fd5436"/>
+    </linearGradient>
+  </defs>
+  <g id="组_6254" data-name="组 6254" transform="translate(-70 -11)">
+    <g id="组_6255" data-name="组 6255" transform="translate(0 7)">
+      <g id="矩形_3276" data-name="矩形 3276" class="cls-1" transform="translate(70 4)">
+        <rect class="cls-8" width="72" height="58"/>
+        <rect class="cls-9" x="0.5" y="0.5" width="71" height="57"/>
+      </g>
+      <g id="组_6253" data-name="组 6253" transform="translate(1050.168 861.703)">
+        <rect id="矩形_5" data-name="矩形 5" class="cls-2" width="13.542" height="4.196" transform="translate(-922.376 -850.827)"/>
+        <path id="路径_17" data-name="路径 17" class="cls-3" d="M-634-828.521V-831h4.768Z" transform="translate(-279.603 -19.827)"/>
+        <rect id="矩形_6" data-name="矩形 6" class="cls-2" width="13.542" height="4.196" transform="translate(-917.704 -841.958) rotate(-90)"/>
+        <path id="路径_18" data-name="路径 18" class="cls-2" d="M-979.5-746.065V-786.5h11.062v31.661a5.759,5.759,0,0,1-2.7,5.313C-972.286-748.847-979.5-746.065-979.5-746.065Z" transform="translate(0 -55.84)"/>
+        <path id="路径_19" data-name="路径 19" class="cls-2" d="M-727.437-746.065V-786.5H-738.5v31.661a5.759,5.759,0,0,0,2.7,5.313C-734.651-748.847-727.437-746.065-727.437-746.065Z" transform="translate(-195.034 -55.84)"/>
+        <path id="路径_20" data-name="路径 20" class="cls-4" d="M-968.438-774.793l-11.062,9.536V-787h11.062Z" transform="translate(0 -55.435)"/>
+        <path id="路径_21" data-name="路径 21" class="cls-5" d="M-738.5-774.793l11.063,9.536V-787H-738.5Z" transform="translate(-195.034 -55.435)"/>
+        <path id="路径_26" data-name="路径 26" class="cls-6" d="M-979.5-774.793l11.062,9.536V-787H-979.5Z" transform="translate(45.966 -55.34)"/>
+        <path id="路径_22" data-name="路径 22" class="cls-2" d="M-867.726-787.9l28.609-16.4-11.253-4.2-26.13,15.449Z" transform="translate(-83.355 -38.036)"/>
+        <path id="路径_23" data-name="路径 23" class="cls-7" d="M-824.005-770.04l-8.957-5.207,8.766-5.173,8.005,5.9Z" transform="translate(-118.588 -60.76)"/>
+        <path id="路径_24" data-name="路径 24" class="cls-2" d="M-950.89-787.9-979.5-804.3l11.253-4.2,26.13,15.449Z" transform="translate(0 -38.036)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+stages:
+  - build
+  - deploy
+
+landscape-build:
+  stage: build
+  only:
+    refs:
+      - triggers
+  script:
+     - echo "If the files are built successfully, test some files with one command:"
+  allow_failure: false
+
+
+
+landscape-deploy:
+  stage: deploy
+  only:
+    refs:
+      - triggers
+  script:
+     - echo "If the files are built successfully, test some files with one command:"
+  allow_failure: false
+
+
