@@ -2,4 +2,3 @@
 name == tugang
 name == kobe
 name == jordan
-name == hahaha
