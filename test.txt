@@ -1,4 +1,1 @@
 #test for webhooks
-name == tugang
-name == kobe
-name == jordan
