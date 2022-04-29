@@ -1,6 +1,2 @@
 #test for webhooks
-tugang == 123456
-
-james == 40000
-
-count == 1111
+tugang == 12345
